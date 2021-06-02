@@ -233,14 +233,15 @@ section.about {
     margin-top: 10px;
 }
 .section img {
-    width: 30px;
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
     opacity: 0.8;
 }
 
 .section p,
 .section p a {
-    line-height: 30px;
+    line-height: 20px;
     font-weight: 700;
     font-size: 15px;
 }
