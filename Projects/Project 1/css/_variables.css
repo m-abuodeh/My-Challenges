@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #4458dc;
+    --secondary-color: #854fee;
+    --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    --box-shadow: rgba(57, 56, 61, 0.205);
+    --border-color: #000000;
+    --title-color: #ebebeb;
+    --text-color: #b1aeae;
+    --border-line: 1px solid rgba(83, 83, 83, 0.61);
+}

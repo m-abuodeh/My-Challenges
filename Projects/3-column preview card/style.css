@@ -1,0 +1,131 @@
+:root {
+  --bsd: 'Big Shoulders Display', sans-serif;
+  --ld: 'Lexend Deca', sans-serif;
+}
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0, 0%, 95%);
+}
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: lightpink;
+} */
+
+.card-container {
+  position: relative;
+  width: 920px;
+  height: 500px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  width: 307px;
+  height: 500px;
+
+  padding: 48px;
+  padding-bottom: 43px;
+  box-sizing: border-box;
+}
+
+.card h1 {
+  text-transform: uppercase;
+  font-family: var(--bsd);
+  font-size: 40px;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+.card p {
+  font-family: var(--ld);
+  font-size: 15px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 25px;
+}
+
+img {
+  width: 64px;
+}
+
+.Sedans {
+  background: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.SUVs {
+  background: hsl(184, 100%, 22%);
+}
+
+.Luxury {
+  background: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.card button {
+  box-sizing: border-box;
+  margin-top: 25%;
+  width: 146px;
+  height: 48px;
+  background: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+  border-radius: 3rem;
+  font-family: var(--ld);
+}
+
+.card.Sedans button {
+  color: hsl(31, 77%, 52%);
+}
+.card.SUVs button {
+  color: hsl(184, 100%, 22%);
+}
+.card.Luxury button {
+  color: hsl(179, 100%, 13%);
+}
+.card button:hover {
+  cursor: pointer;
+  border: 2px solid hsl(0, 0%, 95%);
+  background: transparent;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    padding-top: 10px;
+    padding-bottom: 10%;
+    height: auto;
+  }
+  .card-container {
+    flex-direction: column;
+    height: 1500px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Sedans {
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .Luxury {
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+}

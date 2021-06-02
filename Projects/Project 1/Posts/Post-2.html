@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ABU ODEH BLOG</title>
+
+        <!--To remove favicon icon error message -->
+        <link rel="shortcut icon" href="#" />
+
+        <!--Link google fonts " ROBOTO" -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+
+        <!-- Linking stylesheet -->
+        <link rel="stylesheet" href="../css/post-page.css" />
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <section class="top">
+                    <!--Add navigation bar -->
+                    <nav class="navbar">
+                        <img src="../Images/logo.png" alt="logo" class="logo" />
+                        <ul class="nav-ul">
+                            <li class="nav-element"><a href="../index.html" class="nav-link">Home</a></li>
+                            <li class="nav-element"><a href="../404.html" class="nav-link">About us</a></li>
+                            <li class="nav-element"><a href="../404.html" class="nav-link">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </section>
+
+                <!--Add sidebar / Author information -->
+                <section class="sidebar">
+                    <div class="author">
+                        <img src="../Images/author.jpg" alt="author picture" class="author-picture" />
+                        <h2 class="about-author">About author</h2>
+                        <div class="author-information">
+                            <p class="author-info"><strong class="author-title">Name:</strong> Mohammad Yaser</p>
+                            <p class="author-info"><strong class="author-title">Title:</strong> Electrical engineer</p>
+                            <p class="author-info"><strong class="author-title">Company:</strong> Tungsram</p>
+                            <p class="author-info"><strong class="author-title">Short Bio:</strong> 32 years old, from Jordan and passionate about Front end development. I am working to make it my professional career one day.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Add Post area -->
+                <section class="post-area">
+                    <div class="post">
+                        <h1 class="post-title">What is the LED?</h1>
+                        <div class="post-details">
+                            <p><strong>Author: </strong> Mohammad</p>
+                            <p><strong>date: </strong> <time datetime="2021-05-05">May-5-2021</time></p>
+                        </div>
+                        <div class="post-content">
+                            <img src="../Images/post-2.jpg" alt="What is LED" class="post-image" />
+                            <p>
+                                n the simplest terms, a light-emitting diode (LED) is a semiconductor device that emits light when an electric current is passed through it. Light is produced when the particles that carry the current (known as
+                                electrons and holes) combine together within the semiconductor material.
+                            </p>
+                            <p>
+                                Since light is generated within the solid semiconductor material, LEDs are described as solid-state devices. The term solid-state lighting, which also encompasses organic LEDs (OLEDs), distinguishes this lighting
+                                technology from other sources that use heated filaments (incandescent and tungsten halogen lamps) or gas discharge (fluorescent lamps).
+                            </p>
+                            <h2>Different colors</h2>
+                            <p>
+                                Inside the semiconductor material of the LED, the electrons and holes are contained within energy bands. The separation of the bands (i.e. the bandgap) determines the energy of the photons (light particles) that are
+                                emitted by the LED.
+                            </p>
+                            <p>
+                                The photon energy determines the wavelength of the emitted light, and hence its color. Different semiconductor materials with different bandgaps produce different colors of light. The precise wavelength (color) can be
+                                tuned by altering the composition of the light-emitting, or active, region.
+                            </p>
+                            <p>
+                                LEDs are comprised of compound semiconductor materials, which are made up of elements from group III and group V of the periodic table (these are known as III-V materials). Examples of III-V materials commonly used to
+                                make LEDs are gallium arsenide (GaAs) and gallium phosphide (GaP).
+                            </p>
+                            <p>
+                                Until the mid-90s LEDs had a limited range of colors, and in particular commercial blue and white LEDs did not exist. The development of LEDs based on the gallium nitride (GaN) material system completed the palette of
+                                colors and opened up many new applications.
+                            </p>
+                            <h2>Main LED materials</h2>
+                            <p>The main semiconductor materials used to manufacture LEDs are:</p>
+                            <ul>
+                                <li>
+                                    <p><strong>Indium gallium nitride (InGaN):</strong> blue, green and ultraviolet high-brightness LEDs</p>
+                                </li>
+                                <li>
+                                    <p><strong>Aluminum gallium indium phosphide (AlGaInP):</strong> yellow, orange and red high-brightness LEDs</p>
+                                </li>
+                                <li>
+                                    <p><strong> Aluminum gallium arsenide (AlGaAs):</strong> red and infrared LEDs</p>
+                                </li>
+                                <li>
+                                    <p><strong>Gallium phosphide (GaP): </strong>yellow and green LEDs</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="related-articles">
+                        <h2 class="articles">Related articles</h2>
+                        <div class="content">
+                            <a href="../Posts/Post-1.html" class="post-card">
+                                <div class="card c1">
+                                    <div class="post-card-gradient"></div>
+                                    <p class="post-card-text">The Difference Between Halogen and LED Lights in Surgical Rooms</p>
+                                    <button class="post-card-btn">Read more</button>
+                                </div>
+                            </a>
+                            <a href="../Posts/Post-3.html" class="post-card">
+                                <div class="card c3">
+                                    <div class="post-card-gradient"></div>
+                                    <p class="post-card-text">How do I choose the right LED lights?</p>
+                                    <button class="post-card-btn">Read more</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!--Add Footer area -->
+                <footer class="footer">
+                    <!--Add Subscribe button -->
+                    <div class="subscribe">
+                        <button id="subscribe-button" class="subscribe-button">subscribe</button>
+                    </div>
+                    <p class="rights">All rights reserved</p>
+                    <!--Add Social media buttons -->
+                    <div class="social-media-icons">
+                        <a href="../404.html" target="_blank"> <img src="https://img.icons8.com/nolan/64/facebook-new.png" alt="facebook icon" /></a>
+                        <a href="../404.html" target="_blank"> <img src="https://img.icons8.com/nolan/64/instagram-new.png" alt="instagram icon" /></a>
+                        <a href="../404.html" target="_blank"><img src="https://img.icons8.com/nolan/64/twitter.png" alt="twitter icon" /></a>
+                        <a href="../404.html" target="_blank"><img src="https://img.icons8.com/nolan/64/youtube-play.png" alt="youtube icon" /></a>
+                    </div>
+                </footer>
+            </div>
+        </main>
+    </body>
+</html>

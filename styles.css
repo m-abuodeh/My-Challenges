@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.body {
+    width: 100vw;
+}
+
+.heading {
+    display: flex;
+    padding: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-info {
+    position: relative;
+    width: 40%;
+    min-width: 300px;
+    margin-right: 30px;
+}
+
+.main-img {
+    width: 50%;
+    min-width: 300px;
+}
+
+.main-img img {
+    width: 100%;
+    transform: translateY(70px);
+}
+
+h1 {
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+
+p.main-desc {
+    font-size: 1.5em;
+    line-height: 35px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+span {
+    font-size: 1em;
+    font-weight: 700;
+    color: #474b86;
+}
+
+.square {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #6c63ff;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.s1 {
+    top: 40px;
+    left: 500px;
+    transform: rotateZ(73deg);
+}
+.s2 {
+    top: 350px;
+    left: 300px;
+    width: 60px;
+    height: 60px;
+    opacity: 0.1;
+    transform: rotateZ(30deg);
+}
+
+.cards {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.card {
+    width: 300px;
+    border: 1px solid rgb(212, 211, 211);
+    background-color: #ededfc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px 0px rgba(63, 63, 63, 0.432);
+    margin-bottom: 20px;
+    margin: 10px;
+}
+.card img {
+    width: 300px;
+}
+
+.card .title {
+    text-align: center;
+    margin: 5px;
+    font-size: 1.3em;
+}
+
+.card p.desc {
+    margin: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.languages {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.473);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.473);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.languages div.img {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: center;
+}
+.languages div.img img {
+    margin: 5px;
+}
+
+div.img img {
+    width: 30px;
+    cursor: help;
+}
+
+div.img img.nodejs {
+    width: 60px;
+    height: 34.05px;
+}
+div.img img.express {
+    width: 30px;
+}
+.card .info {
+    margin: 10px;
+    font-size: 1.2em;
+}
+.purpose,
+.responsive {
+    margin-bottom: 5px;
+}
+.purpose p,
+.responsive p {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+.purpose p {
+    min-height: 80px;
+}
+
+.project-direct {
+    margin: auto;
+    margin-bottom: 3px;
+    width: 98%;
+    height: 30px;
+    background-color: #847eec9f;
+    display: block;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: black;
+}
+
+section.about {
+    width: 100%;
+    padding: 20px;
+    background: #ededfc;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-top: 50px;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.personal-img {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+.personal-img img {
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid #6167af;
+}
+
+.about .about-me {
+    width: 60%;
+    margin-left: 10px;
+}
+.about-brief {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.473);
+}
+.about-brief p {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.section {
+    display: flex;
+    margin-top: 10px;
+}
+.section img {
+    width: 30px;
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+.section p,
+.section p a {
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 1.1em;
+}
